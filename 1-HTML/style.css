@@ -1,0 +1,25 @@
+
+header {
+    height: 300px;
+    width: 100%;
+    background-image: url("./background.svg");
+    background-size: cover;
+    background-position: center;
+    display: flex;
+
+    color: white;
+    text-align: center;
+}
+header > div {
+    margin: auto;
+}
+.flexSpaceBetween {
+    display: flex;
+    justify-content: space-between;
+}
+.marginBottom1 {
+    margin-bottom: 1rem;
+}
+.marginTop1 {
+    margin-top: 1rem;
+}
